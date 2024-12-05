@@ -3,7 +3,7 @@ import { ProjectProps } from "@/type/type";
 export const Projects: ProjectProps[] = [
   {
     id: "1",
-    img: "/public/projects/danphe.png",
+    img: "/projects/danphe.png",
     name: "Danphe Traders",
     paragraph:
       "In the Danphe Traders project, an e-commerce platform built with React and JavaScript, I used React Router for navigation and Slick Slider for dynamic sliders. The project featured libraries like axios for API calls, formik and react-hook-form for form handling, and Yup for validation. UI styling was done with React Bootstrap and styled-components, while react-toastify managed notifications. For interactivity, I integrated react-responsive-carousel, react-owl-carousel, and react-magnifier. This setup created a responsive and engaging user experience, showcasing my skills in modern React development.",
@@ -15,12 +15,12 @@ export const Projects: ProjectProps[] = [
     challenges:
       "Created a React Slick slider and ensured mobile responsiveness",
     link: "https://danphetraders.com/",
-    screenshot: "/public/images/danfe.png",
+    screenshot: "/images/danfe.png",
   },
 
   {
     id: "2",
-    img: "/public/projects/intopros.png",
+    img: "/projects/intopros.png",
     name: "Intopros Company Project",
 
     paragraph:
@@ -33,11 +33,11 @@ export const Projects: ProjectProps[] = [
     challenges:
       "Created a React Slick slider and ensured mobile responsiveness",
     link: "https://intopros.com/",
-    screenshot: "/public/images/intopros1.png",
+    screenshot: "/images/intopros1.png",
   },
   {
     id: "3",
-    img: "/public/projects/kathmandu.png",
+    img: "/projects/kathmandu.png",
     name: "Kathmandu Tranding",
     paragraph:
       "In the Kathmandu Tranding, an e-commerce platform built with React and JavaScript, I used React Router for navigation and Slick Slider for dynamic sliders. The project featured libraries like axios for API calls, formik and react-hook-form for form handling, and Yup for validation. UI styling was done with React Bootstrap and styled-components, while react-toastify managed notifications. For interactivity, I integrated react-responsive-carousel, react-owl-carousel, and react-magnifier. This setup created a responsive and engaging user experience, showcasing my skills in modern React development.",
@@ -49,11 +49,11 @@ export const Projects: ProjectProps[] = [
     challenges:
       "Created a React Slick slider and ensured mobile responsiveness",
     link: "https://kathmandutradinggroup.com/",
-    screenshot: "/public/images/kathmandu1.png",
+    screenshot: "/images/kathmandu1.png",
   },
   {
     id: "4",
-    img: "/public/projects/ketan.png",
+    img: "/projects/ketan.png",
     name: "Ketan Portfolio",
     paragraph:
       "I developed a responsive website for Ketan Portfolio, showcasing their IT services with a modern design, interactive elements, and optimized performance, reflecting their brand and expertise.",
@@ -64,11 +64,11 @@ export const Projects: ProjectProps[] = [
     challenges:
       "Created a React Slick slider and ensured mobile responsiveness",
     link: "/",
-    screenshot: "/public/images/ketan1.png",
+    screenshot: "/images/ketan1.png",
   },
   {
     id: "5",
-    img: "/public/projects/mobile.png",
+    img: "/projects/mobile.png",
     name: "Mobile Khata",
     paragraph:
       "I developed the Mobile Khata website, a platform for tracking financial transactions, including bank deposits, expenses, payments, and loans. The website allows users to easily record and manage their financial activities, ensuring better organization and transparency in personal finances.",
@@ -81,11 +81,11 @@ export const Projects: ProjectProps[] = [
     challenges:
       "Created a React Slick Slider and ensured mobile responsiveness",
     link: "https://mobilekhata.checkmysite.live/",
-    screenshot: "/public/images/mobile1.png",
+    screenshot: "/images/mobile1.png",
   },
   {
     id: "6",
-    img: "/public/projects/net.png",
+    img: "/projects/net.png",
     name: "Netflix",
     paragraph:
       "In the Netflix Clone project, created using HTML, CSS, and JavaScript, I integrated the TMDB API for movie data, implemented responsive navigation, dynamic carousels, and video playback features, showcasing my skills in front-end web development.",
@@ -95,11 +95,11 @@ export const Projects: ProjectProps[] = [
     key_feature: "responsive Design",
     challenges: "ensured mobile responsiveness",
     link: "/",
-    screenshot: "/public/images/netflix1.png",
+    screenshot: "/images/netflix1.png",
   },
   {
     id: "7",
-    img: "/public/projects/smartgk.png",
+    img: "/projects/smartgk.png",
     name: "Smart Career",
     paragraph:
       "In the E-learning platform project, built with React, JavaScript, and React Hook Form, I developed a dynamic system for managing courses, quizzes, and student progress, with responsive design and efficient form handling for course registrations and quiz submissions.",
@@ -110,12 +110,12 @@ export const Projects: ProjectProps[] = [
       "Dynamic slider, form validation, responsive design, carousel integration",
     challenges: "ensured mobile responsiveness",
     link: "/",
-    screenshot: "/public/images/smart1.png",
+    screenshot: "/images/smart1.png",
   },
   {
     id: "8",
     link: "https://movie-night-mayhem-nlhofv1da-janaki-rais-projects.vercel.app/",
-    img: "/public/projects/logomnm.png",
+    img: "/projects/logomnm.png",
     name: "Movie Night Mayhem",
     paragraph:
       "In the Movie Night Mayhem Clone project, created using React TypeScript, I integrated the TMDB API for movie data, implemented responsive navigation, dynamic carousels, and video playback features, showcasing my skills in front-end web development.",
@@ -127,6 +127,6 @@ export const Projects: ProjectProps[] = [
     challenges:
       "Created a  React Slick Slider and ensured mobile responsiveness",
 
-    screenshot: "/public/images/mnm.png",
+    screenshot: "/images/mnm.png",
   },
 ];
