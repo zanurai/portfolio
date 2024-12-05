@@ -25,7 +25,7 @@ const HomePage: React.FC<HomePageProps> = () => {
 
         <div className="absolute lg:top-0 lg:right-0 lg:translate-x-10  flex items-center justify-center gap-4 h-full z-0">
           <img
-            src="/public/images/januka.png"
+            src="public/images/januka.png"
             alt="Januka"
             className="object-cover w-[600px] max-lg:static max-md:ml-[93px]"
           />
