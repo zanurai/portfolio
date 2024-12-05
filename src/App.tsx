@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import HomePage from "@/page/home-page";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -13,6 +13,16 @@ const App = () => {
   const toggleSlider = () => {
     setIsOpen(!isOpen);
   };
+
+    useEffect(() => {
+      if (isOpen) {
+        const timeout = setTimeout(() => {
+          setIsOpen(false);
+        }, 5000);
+
+        return () => clearTimeout(timeout);
+      }
+    }, [isOpen]);
 
   return (
     <>

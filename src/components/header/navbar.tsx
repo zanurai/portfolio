@@ -24,16 +24,6 @@ const Navbar: React.FC<NavbarProps> = ({ isOpen, toggleSlider }) => {
   };
 
   useEffect(() => {
-    if (isOpen) {
-      const timeout = setTimeout(() => {
-        toggleSlider();
-      }, 2000);
-
-      return () => clearTimeout(timeout);
-    }
-  }, [isOpen, toggleSlider]);
-
-  useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
         navbarRef.current &&
@@ -73,8 +63,9 @@ const Navbar: React.FC<NavbarProps> = ({ isOpen, toggleSlider }) => {
         initial={{ width: isOpen ? 256 : 0 }}
         animate={{ width: isOpen ? 256 : 0 }}
         transition={{
-          type: "tween",
-          ease: "easeInOut",
+          type: "spring",
+          stiffness: 100, 
+          damping: 25,
           duration: 2,
         }}
         className={`overflow-hidden bg-pink-100 text-gray-600 shadow-lg shadow-gray-400 border-r border-gray-300 flex flex-col h-full`}
@@ -82,7 +73,7 @@ const Navbar: React.FC<NavbarProps> = ({ isOpen, toggleSlider }) => {
         <div className="p-7 flex-1">
           <div className="mb-5 flex items-center flex-col justify-center">
             <img
-              src="/public/images/janu.jpg"
+              src="/images/janu.jpg"
               alt="Janaki Rai"
               className="w-[100px] h-[100px] rounded-full object-cover mb-2"
             />
